@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;text-align: center;
+    background-color: #f4f4f4;flex-wrap: nowrap | wrap | wrap-reverse;
+  
+}
+ 
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+#about{
+    
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.text {
+    float: left;
+    width: 50%; /* Adjust width as needed */
+    padding-left: 10px; /* Add some space between text and image */
+  }
+.aboutimg{
+    height: 50%;
+    position: relative; 
+    float: left;
+  
+}
+.pro1{
+    height: 300px;
+    border-radius: 5px;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    right: 700%;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.skills{
+    list-style-type: none;
+}
+.btn {
+    display: inline-block;
+    background: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 30px;
+    
+}
